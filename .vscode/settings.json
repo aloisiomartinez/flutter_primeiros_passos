@@ -1,0 +1,155 @@
+{
+  // Define o tema do VSCode
+  "workbench.colorTheme": "Omni",
+  // Configura tamanho e família da fonte
+  "editor.fontSize": 14,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "[javascript]": {
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  }
+  },
+  "[javascriptreact]": {
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  }
+  },
+  "[typescript]": {
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  }
+  },
+  "[typescriptreact]": {
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  }
+  },
+  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  "editor.rulers": [80, 120],
+  "editor.formatOnSave": false,
+  "[javascript]": {
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  }
+  },
+  "[javascriptreact]": {
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  }
+  },
+  "[typescript]": {
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  }
+  },
+  "[typescriptreact]": {
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  }
+  },
+  "eslint.packageManager": "yarn",
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+  {
+  "language": "javascript",
+  "autoFix": true
+  },
+  {
+  "language": "javascriptreact",
+  "autoFix": true
+  },
+  {
+  "language": "typescript",
+  "autoFix": true
+  },
+  {
+  "language": "typescriptreact",
+  "autoFix": true
+  }
+  ],
+  "files.associations": {
+  ".sequelizerc": "javascript"
+  },
+  "material-icon-theme.folders.associations": {
+  "migrations": "tools",
+  "typeorm": "database",
+  "modules": "components",
+  "repositories": "mappings",
+  "infra": "app",
+  "entities": "class",
+  "schemas": "class",
+  "http": "container",
+  "implementations": "core",
+  "dtos": "typescript",
+  "fakes": "mock"
+  },
+  "material-icon-theme.files.associations": {
+  "ormconfig.json": "database",
+  "tsconfig.json": "tune"
+  },
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize": 14,
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 1,
+  "window.zoomLevel": 0.5,
+  "extensions.ignoreRecommendations": true,
+  "emmet.syntaxProfiles": {
+  "javascript": "jsx",
+  },
+  "emmet.includeLanguages": {
+  "javascript": "javascriptreact",
+  "njk": "html"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "breadcrumbs.enabled": true,
+  "git.enableSmartCommit": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "liveshare.featureSet": "insiders",
+  "explorer.confirmDelete": false,
+  "typescript.tsserver.log": "verbose",
+  "javascript.suggest.autoImports": false,
+  "typescript.suggest.autoImports": false,
+  "workbench.activityBar.visible": true,
+  "[javascript]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  }
+  },
+  "[javascriptreact]": {
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  }
+  },
+  "[typescript]": {
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  }
+  },
+  "[typescriptreact]": {
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  }
+  },
+  "editor.semanticHighlighting.enabled": false,
+  "files.autoSave": "off",
+  "diffEditor.ignoreTrimWhitespace": false,
+  }
