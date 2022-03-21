@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_primeiros_passos/navegacao/page2.dart';
+import 'package:flutter_primeiros_passos/exemplos/navegacao/page2.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({ Key? key }) : super(key: key);
